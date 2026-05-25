@@ -1,0 +1,42 @@
+# Godot
+godot/.godot/
+godot/*.translation
+godot/export.cfg
+godot/export_credentials.cfg
+
+# Builds
+builds/
+*.apk
+*.aab
+*.ipa
+*.app
+
+# Secrets
+.env
+.env.*
+!.env.example
+fastlane/.env*
+fastlane/*.json
+fastlane/*.p8
+*.p12
+*.mobileprovision
+*.keystore
+*.jks
+
+# Website (Next.js)
+website/node_modules/
+website/.next/
+website/out/
+website/.vercel/
+
+# Supabase
+backend/supabase/.temp/
+backend/supabase/.branches/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
